@@ -302,7 +302,7 @@ a {
   margin-bottom: 40px;
 }
 
-.site__among-text {
+.site__among-list {
   font-weight: 700;
   font-size: 40px;
   line-height: 1.2;
@@ -319,7 +319,7 @@ a {
   margin-bottom: 35px;
 }
 
-.site__among-teg {
+.site__among-btn {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.7;
@@ -328,11 +328,11 @@ a {
   transition: all 0.4s ease;
 }
 
-.site__among-teg:hover {
+.site__among-btn:hover {
   color: var(--white-color);
 }
 
-.site__among-teg:active {
+.site__among-btn:active {
   opacity: 0.6;
 }
 
@@ -385,19 +385,21 @@ a {
   color: var(--white-color);
 }
 
-.get-quality-education__title {
+.get-quality-education__title-img {
 background-image: url(../img/product-cover-133\ sec-.jpg);
 }
 
-.get-quality-education__wrapper {
-  position: relative;
+.get-quality-education__title-img-one{
+  background-image: url(../img/site-hero-pen-img.png);
 }
 
-.get-quality-education__img-one {
-  width: 238px;
-  height: 300px;
+.get-quality-education__title-img-one{
+  background-image: url(../img/site-hero-freinds-img.png);
 }
 
+.get-quality-education__title-img-one{
+  background-image: url(../img/site-hero-girl-img.png);
+}
 .get-quality-education__text-little {
   position: absolute;
   top: 20px;
@@ -418,3 +420,4 @@ background-image: url(../img/product-cover-133\ sec-.jpg);
 .get-quality-education__text-little:active {
   opacity: 0.6;
 }
+
